@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+'''
+Script que converte segundos para horas
+'''
+
+#Entrada de dados
+
+print("insira a quantidade inteira de segundos a ser convertida")
+segundos = int(input())
+
+#Processamento de dados
+
+hora = segundos // 3600
+
+min = (segundos % 3600) // 60
+
+seg = (segundos % 3600) % 60
+
+#Saída de dados
+
+print(f"Este valor corresponde a {hora} hora(s), {min} minuto(s) e {seg} segundos.")
