@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+'''
+Script que calcula o peso ideal de uma pessoa com base na altura
+'''
+
+#Entrada de dados
+print("Calcule seu IMC:\n")
+print("Insira sua altura em centimetros (exemplo: 170)")
+altura = int(input())
+
+#Processamento de dados
+
+peso_i = 50 + (0.9 * (altura - 152))
+
+#Saída de dados
+
+print(f"o seu peso ideal é de {peso_i}kg ")
