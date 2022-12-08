@@ -15,9 +15,9 @@ freq = float(input())
 if nota>100 or nota<0 or freq>100 or freq<0:
     print('Entrada inválida')
 else:
-    if nota>60 and freq>75:
+    if nota>=60 and freq>=75:
         print('Aprovado')
-    elif nota<60 and freq>75:
+    elif nota<60 and freq>=75:
         print('Exame')
     else:
         print('Reprovado') 
